@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校園入口網站-登入頁</title>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div ><img src="image/登入/登入圖.png" alt="" class="bk"></div>
+    <div class="loginarea">
+        <div class="first_text">
+            校園入口網站
+        </div>
+        <div class="first_text2">
+            <p>Taipei Tech Potal</p>
+        </div>
+        <div class="">
+            <div class="">
+                <label for="email" class="">使用者帳號:</label>
+                <input type="text" class="" id="email" placeholder="Example@mail.com">
+            </div>
+            <div class="">
+                <label for="password" class="">使用者密碼:</label>
+                <input type="password" class="" id="password" placeholder="Must have 7 words">
+            </div>
+            <div class="first_forget">
+                <p><u>忘記密碼？</u></p>
+            </div>
+            <div class="first_forget2">
+                <p><u>Having trouble signing in the Taipei Tech Potal?</u></p>
+            </div>
+            <div class="">
+                <button type="button" class="" id="signup" onclick="signup()"><img src="image/登入/登入_註冊鍵.png" height="20" width="50" Sign Up</button>
+                <button type="button" class="" id="signin" onclick="signin()"><img src="image/登入/登入_登入鍵.png" height="20" width="50" Sign In</button>
+                <button type="button" class="" id="signout" onclick="signout()"><img src="image/登入/登入_登出鍵.png" height="20" width="50" Sign Out</button>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

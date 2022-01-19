@@ -1,0 +1,69 @@
+.first_bk{
+    width: 100%;
+    height: 100%;
+}
+.loginarea{
+    position: absolute;
+    font-size: 25px;
+    top: 60%;
+    left: 30%;
+}
+.first_text{
+    color: orange;
+    font-size: 30px;
+}
+.first_text2{
+    color: gray;
+    font-size: 25px;
+}
+.first_forget{
+    color: gray;
+    font-size: 10px;
+    position: relative;
+    left: 25%;
+}
+.first_forget2{
+    color: gray;
+    font-size: 10px;
+}
+.second_head{
+    background-color: orange;
+    height: 60px;
+    width: 100%;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding-right: 20px;
+}
+.second_top{
+    background-color: lightgrey;
+    height: 25px;
+    width: 100%;
+    margin-left: -10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.second_icon{
+    margin-right: 30px;
+}
+.second_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.second_part7{
+    flex: none;
+ 
+}
+@media (max-width:700px) {
+    .second_part7{
+        width: 90%;
+    }
+}
+.third_image1{
+    margin-left: -10px;
+    margin-top: -2px;
+}
+.third_image2{
+    margin-bottom: 150px;
+}
